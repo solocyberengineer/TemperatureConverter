@@ -1,0 +1,35 @@
+* {
+    user-select: none;
+}
+img {
+    width: 30px;
+    height: auto;
+    aspect-ratio: 1;
+}
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+[type='number']{
+    margin-inline: 10px;
+}
+#calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calc div:first-child {
+    display: flex;
+    flex-direction: column;
+    padding-block: 4px;
+}
+#calc div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#calc div:nth-child(3) {
+    padding-block: 6px;
+}
