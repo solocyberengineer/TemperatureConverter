@@ -15,6 +15,9 @@ form {
 [type='number']{
     margin-inline: 10px;
 }
+#title {
+    text-align: center;
+}
 #calc {
     display: flex;
     justify-content: center;
